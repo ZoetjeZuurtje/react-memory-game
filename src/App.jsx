@@ -1,5 +1,6 @@
 // import { useState } from 'react'
 import './App.css'
+import Card from './Card'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -21,90 +22,18 @@ function App() {
           <li>After each click, the cards are shuffled</li>
         </ol>
         <div className="cards-wrapper">
-          <div className="card">
-            <div className="card-image-container">
-              <div className="card-image"></div>
-            </div>
-            <hr />
-            <h3 className="card-title">Lorem Ipsum</h3>
-          </div>
-          <div className="card">
-            <div className="card-image-container">
-              <div className="card-image"></div>
-            </div>
-            <hr />
-            <h3 className="card-title">Lorem Ipsum</h3>
-          </div>
-          <div className="card">
-            <div className="card-image-container">
-              <div className="card-image"></div>
-            </div>
-            <hr />
-            <h3 className="card-title">Lorem Ipsum</h3>
-          </div>
-          <div className="card">
-            <div className="card-image-container">
-              <div className="card-image"></div>
-            </div>
-            <hr />
-            <h3 className="card-title">Lorem Ipsum</h3>
-          </div>
-          <div className="card">
-            <div className="card-image-container">
-              <div className="card-image"></div>
-            </div>
-            <hr />
-            <h3 className="card-title">Lorem Ipsum</h3>
-          </div>
-          <div className="card">
-            <div className="card-image-container">
-              <div className="card-image"></div>
-            </div>
-            <hr />
-            <h3 className="card-title">Lorem Ipsum</h3>
-          </div>
-          <div className="card">
-            <div className="card-image-container">
-              <div className="card-image"></div>
-            </div>
-            <hr />
-            <h3 className="card-title">Lorem Ipsum</h3>
-          </div>
-          <div className="card">
-            <div className="card-image-container">
-              <div className="card-image"></div>
-            </div>
-            <hr />
-            <h3 className="card-title">Lorem Ipsum</h3>
-          </div>
-          <div className="card">
-            <div className="card-image-container">
-              <div className="card-image"></div>
-            </div>
-            <hr />
-            <h3 className="card-title">Lorem Ipsum</h3>
-          </div>
-          <div className="card">
-            <div className="card-image-container">
-              <div className="card-image"></div>
-            </div>
-            <hr />
-            <h3 className="card-title">Lorem Ipsum</h3>
-          </div>
-          <div className="card">
-            <div className="card-image-container">
-              <div className="card-image"></div>
-            </div>
-            <hr />
-            <h3 className="card-title">Lorem Ipsum</h3>
-          </div>
-          <div className="card">
-            <div className="card-image-container">
-              <div className="card-image"></div>
-            </div>
-            <hr />
-            <h3 className="card-title">Lorem Ipsum</h3>
-          </div>
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
         </div>
       </main>
     </>
