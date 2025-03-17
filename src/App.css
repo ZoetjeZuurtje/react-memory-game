@@ -1,0 +1,36 @@
+header {
+  height: 70px;
+  background-color: royalblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h1 {
+  margin: 0;
+}
+
+.cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 10px;
+  padding-left: 10px;
+}
+
+.card {
+  height: fit-content;
+  width: clamp(200px, calc(25% - 10px), 300px);
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.card-image-container {
+  padding: 20px;
+}
+.card-image {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background-color: white;
+  border-radius: 5px;
+}
+.card-title {
+  text-align: center;
+}
